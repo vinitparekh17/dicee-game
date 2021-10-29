@@ -18,3 +18,7 @@ if(result1 > result2) {
     won = "player 2 is won"
 }
 document.querySelector("h1").innerHTML = won
+
+function refresh() {
+    window.location.reload("Refresh")
+}
